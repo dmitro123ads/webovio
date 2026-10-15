@@ -1,0 +1,12 @@
+header {
+  background-image: url(../img/hero-back.webp);
+  color: white;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.title-begin {
+  font-size: 14px;
+}
