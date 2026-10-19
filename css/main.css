@@ -1,12 +1,157 @@
+body {
+  margin: 0 auto;
+}
+
 header {
   background-image: url(../img/hero-back.webp);
   color: white;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
 }
 
 .title {
   font-size: 60px;
+  margin: 24px 0px;
 }
 
 .title-begin {
   font-size: 14px;
+}
+
+.real-header {
+  padding: 24px 164px;
+}
+
+.hero {
+  margin: 120px 659px 211px 166px;
+}
+
+.hero-link {
+  color: #FFD723;
+}
+
+.what-we-do {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 166px;
+  margin-top: 100px;
+  gap: 160px;
+}
+
+.author-pfp {
+  width: 100px;
+}
+
+.coment-author {
+  display: flex;
+}
+
+.coment {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.563);
+  padding: 40px;
+  padding-top: 120px;
+  width: 377px;
+}
+
+.coment-main {
+  font-size: 24px;
+  color: #4D533C;
+}
+
+.strategy {
+  margin-top: 120px;
+}
+
+.strategy-title {
+  font-size: 36px;
+  color: #4D533C;
+}
+
+mark {
+  background-color: #fffce9;
+}
+
+.partners {
+  margin-left: 165px;
+  position: absolute;
+  height: 117px;
+  width: 100%;
+  z-index: 100;
+  top: 600px;
+  background-color: white;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.212);
+  padding: 65px;
+}
+
+.partners img {
+  height: 110px;
+}
+
+.products-title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 301px 299px 110px 164px;
+  gap: 133px;
+}
+
+.products-title h2 {
+  font-size: 36px;
+  margin: 0 auto;
+  color: #4D533C;
+}
+
+.products-title p {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.products img {
+  width: 700px;
+}
+
+.prod-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.norm {
+  margin-right: 134px;
+}
+
+.revers {
+  margin-left: 150px;
+}
+
+.norm .prod-text {
+  margin-left: 70px;
+}
+
+.revers .prod-text {
+  margin-right: 70px;
+}
+
+.prod-text h3 {
+  font-size: 36px;
+  color: #4D533C;
+}
+
+.product {
+  margin-bottom: 100px;
+}
+
+.prod-coment1 {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.563);
+  padding: 20px;
+  height: 243px;
+  width: 455px;
+  position: absolute;
+  left: 250px;
+  top: 2000px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.prod-coment1 img {
+  width: 100px;
 }

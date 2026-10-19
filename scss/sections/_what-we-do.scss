@@ -1,0 +1,39 @@
+.what-we-do {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 166px;
+    margin-top: 100px;
+    gap: 160px;
+}
+
+.author-pfp {
+    width: 100px;
+}
+
+.coment-author {
+    display: flex;
+}
+
+.coment {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.563);
+    padding: 40px;
+    padding-top: 120px;
+    width: 377px;
+    
+}
+
+.coment-main {
+    font-size: 24px;
+    color: #4D533C;
+}
+.strategy{
+    margin-top: 120px;
+}
+.strategy-title {
+    font-size: 36px;
+    color: #4D533C;
+}
+
+mark {
+    background-color:#fffce9;
+}
