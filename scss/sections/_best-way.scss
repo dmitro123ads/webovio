@@ -1,0 +1,35 @@
+.best-way{
+    margin-top: 300px;
+}
+.best-way-title{
+    color: #4D533C;
+    margin-left: 165px;
+    font-size: 36px;
+    width: 600px;
+    margin-bottom: 60px;
+}
+.best-way-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0px 160px;
+    justify-content: center;
+}
+.best-way-ct{
+    font-size: 24px;
+    color: #4D533C;
+}
+.card{
+    height: 300px;
+    width: 210px;
+    padding: 20px;
+}
+.best-link{
+    color: #d4d6d4;
+
+}
+.best-way-txt{
+    line-height: 26px;
+    font-size: 14px;
+    color: #213842  ;
+}
